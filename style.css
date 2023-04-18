@@ -62,12 +62,28 @@ body {
   -o-transition: all 0.3s ease-out 0s;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  padding: 10px 15px;
 }
 
 .btn-plavi,
-.btn-plavi:hover {
+.btn-plavi:hover,
+.btn-plavi:active,
+.btn-plavi:focus {
   background-color: var(--tamno-plava);
   border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-crna-outline {
+  border: 2px solid #000000;
+}
+
+
+.btn-crna-outline:hover,
+.btn-crna-outline:active,
+.btn-crna-outline:focus {
+  border: 2px solid var(--tamno-plava);
+  background-color: var(--tamno-plava);
   color: #ffffff;
 }
 
