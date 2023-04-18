@@ -1,0 +1,177 @@
+:root {
+  --font-primary: "Montserrat", sans-serif;
+  --color-secondary: #f0ebd8;
+  --tamno-plava: #1d2d44;
+  --svijetlo-plava: #3e5c76;
+  --tamno-siva: #4d4d4d;
+}
+
+html,
+body {
+  font-family: var(--font-primary);
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  line-height: 1;
+  padding-bottom: 50000px;
+}
+
+* {
+  -moz-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.bg-second {
+  background-color: var(--color-secondary);
+}
+
+.bg-tamno-plava {
+  background-color: var(--tamno-plava);
+}
+
+.bg-pattern {
+  background-image: url(img/bg-patern.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.border-black {
+  border: 1px solid #000000;
+}
+
+.btn {
+  border-radius: 0px;
+  font-size: 16px;
+  line-height: 1.4;
+  -moz-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.btn-plavi,
+.btn-plavi:hover {
+  background-color: var(--tamno-plava);
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+/***************************************************
+                Page Top
+***************************************************/
+
+.page-top img {
+  height: 60px;
+  width: auto;
+}
+
+/***************************************************
+               Hero
+***************************************************/
+
+.hero-sekcija {
+  padding-top: 25px;
+}
+
+.hero-content img {
+  height: auto;
+  width: 100%;
+}
+
+/***************************************************
+               Vijesti pocetna
+***************************************************/
+
+.vijesti-kategorija {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.vijesti-kartica-slika {
+  overflow: hidden;
+}
+
+.vijesti-kartica-slika img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  -moz-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.vijesti-kartica-slika img:hover {
+  transform: scale(1.1);
+}
+
+.vijesti-kartica-body {
+  padding: 25px;
+}
+
+.vijesti-kartica-nalov {
+  margin-bottom: 40px;
+}
+
+.vijesti-kartica-nalov a {
+  text-decoration: none;
+  color: var(--tamno-siva);
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+.vijesti-kartica-tekst {
+  font-size: 14px;
+  color: var(--tamno-siva);
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.vijesti-kartica-tekst p:last-child {
+  margin-bottom: 0px;
+}
+
+.vijesti-kartica-tekst p::first-letter {
+  font-weight: 700;
+}
+
+.vijesti-kartica:hover .vijesti-kartica-body {
+  background-color: var(--tamno-plava);
+}
+
+.vijesti-kartica:hover .vijesti-kartica-nalov a,
+.vijesti-kartica:hover .vijesti-kartica-tekst {
+  color: #ffffff;
+}
+
+.vijesti-slider-paginacija {
+  position: relative;
+}
+
+.vijesti-slider-paginacija .carousel-indicators {
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.vijesti-slider-paginacija .carousel-indicators [data-bs-target] {
+  width: 9px;
+  height: 9px;
+}

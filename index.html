@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Андрићев институт</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icons/favicon.png" />
+  </head>
+  <body>
+    <div class="page-top bg-second py-10">
+      <div class="container">
+        <div class="div-content text-center">
+          <a href="index.html"><img src="icons/logo-top.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-placeholder py-4 bg-tamno-plava"></div>
+
+    <div class="hero-sekcija bg-pattern">
+      <div class="container">
+        <div class="hero-content">
+          <img src="img/institut.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <section class="vijesti-sekcija">
+      <div class="container">
+        <div class="row gx-0">
+          <div class="col-md-4 border-black">
+            <div class="vijesti-kategorija bg-tamno-plava text-center py-15">
+              НОВОСТИ
+            </div>
+            <div id="novostiSlider" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="vijesti-kartica">
+                    <div class="vijesti-kartica-slika">
+                      <a href="single.html"
+                        ><img src="img/vijesti-placeholder.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="vijesti-slider-paginacija py-15 bg-tamno-plava">
+                      <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#novostiSlider"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#novostiSlider"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#novostiSlider"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="vijesti-kartica-body">
+                      <div class="vijesti-kartica-nalov">
+                        <a href="single.html"
+                          >МАКСИМОВИЋУ И ВОДОЛАЗКИНУ УРУЧЕНА „ВЕЛИКА НАГРАДА ИВО
+                          АНДРИЋ“</a
+                        >
+                      </div>
+                      <div class="vijesti-kartica-tekst">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Dolores obcaecati dolor iure soluta vero! Quas
+                          dignissimos ipsum cupiditate pariatur dolore. Esse,
+                          repellat quos odio laudantium sunt eos sapiente
+                          distinctio exercitationem excepturi quaerat atque! In,
+                          nisi.
+                        </p>
+                      </div>
+                      <div class="btn-wrapper text-center">
+                        <a href="single.html" class="btn btn-plavi"
+                          >ОПШИРНИЈЕ</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="vijesti-kartica">
+                    <div class="vijesti-kartica-slika">
+                      <a href="single.html"
+                        ><img src="img/vijesti-placeholder.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="vijesti-slider-paginacija py-15 bg-tamno-plava">
+                      <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#novostiSlider"
+                          data-bs-slide-to="0"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#novostiSlider"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                          class="active"
+                          aria-current="true"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#novostiSlider"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="vijesti-kartica-body">
+                      <div class="vijesti-kartica-nalov">
+                        <a href="single.html"
+                          >МАКСИМОВИЋУ И ВОДОЛАЗКИНУ УРУЧЕНА „ВЕЛИКА НАГРАДА ИВО
+                          АНДРИЋ“</a
+                        >
+                      </div>
+                      <div class="vijesti-kartica-tekst">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Dolores obcaecati dolor iure soluta vero! Quas
+                          dignissimos ipsum cupiditate pariatur dolore. Esse,
+                          repellat quos odio laudantium sunt eos sapiente
+                          distinctio exercitationem excepturi quaerat atque! In,
+                          nisi..
+                        </p>
+                      </div>
+                      <div class="btn-wrapper text-center">
+                        <a href="single.html" class="btn btn-plavi"
+                          >ОПШИРНИЈЕ</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="vijesti-kartica">
+                    <div class="vijesti-kartica-slika">
+                      <a href="single.html"
+                        ><img src="img/vijesti-placeholder.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="vijesti-slider-paginacija py-15 bg-tamno-plava">
+                      <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#novostiSlider"
+                          data-bs-slide-to="0"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#novostiSlider"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#novostiSlider"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                          class="active"
+                          aria-current="true"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="vijesti-kartica-body">
+                      <div class="vijesti-kartica-nalov">
+                        <a href="single.html"
+                          >МАКСИМОВИЋУ И ВОДОЛАЗКИНУ УРУЧЕНА „ВЕЛИКА НАГРАДА ИВО
+                          АНДРИЋ“</a
+                        >
+                      </div>
+                      <div class="vijesti-kartica-tekst">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Dolores obcaecati dolor iure soluta vero! Quas
+                          dignissimos ipsum cupiditate pariatur dolore. Esse,
+                          repellat quos odio laudantium sunt eos sapiente
+                          distinctio exercitationem excepturi quaerat atque! In,
+                          nisi...
+                        </p>
+                      </div>
+                      <div class="btn-wrapper text-center">
+                        <a href="single.html" class="btn btn-plavi"
+                          >ОПШИРНИЈЕ</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 border-black">
+            <div class="vijesti-kategorija bg-tamno-plava text-center py-15">
+              ГАЛЕРИЈА ЛУБАРДА
+            </div>
+            <div id="galerijaSlider" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="vijesti-kartica">
+                    <div class="vijesti-kartica-slika">
+                      <a href="single.html"
+                        ><img src="img/vijesti-placeholder.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="vijesti-slider-paginacija py-15 bg-tamno-plava">
+                      <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#galerijaSlider"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#galerijaSlider"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#galerijaSlider"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="vijesti-kartica-body">
+                      <div class="vijesti-kartica-nalov">
+                        <a href="single.html"
+                          >МАКСИМОВИЋУ И ВОДОЛАЗКИНУ УРУЧЕНА „ВЕЛИКА НАГРАДА ИВО
+                          АНДРИЋ“</a
+                        >
+                      </div>
+                      <div class="vijesti-kartica-tekst">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Dolores obcaecati dolor iure soluta vero! Quas
+                          dignissimos ipsum cupiditate pariatur dolore. Esse,
+                          repellat quos odio laudantium sunt eos sapiente
+                          distinctio exercitationem excepturi quaerat atque! In,
+                          nisi.
+                        </p>
+                      </div>
+                      <div class="btn-wrapper text-center">
+                        <a href="single.html" class="btn btn-plavi"
+                          >ОПШИРНИЈЕ</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="vijesti-kartica">
+                    <div class="vijesti-kartica-slika">
+                      <a href="single.html"
+                        ><img src="img/vijesti-placeholder.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="vijesti-slider-paginacija py-15 bg-tamno-plava">
+                      <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#galerijaSlider"
+                          data-bs-slide-to="0"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#galerijaSlider"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                          class="active"
+                          aria-current="true"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#galerijaSlider"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="vijesti-kartica-body">
+                      <div class="vijesti-kartica-nalov">
+                        <a href="single.html"
+                          >МАКСИМОВИЋУ И ВОДОЛАЗКИНУ УРУЧЕНА „ВЕЛИКА НАГРАДА ИВО
+                          АНДРИЋ“</a
+                        >
+                      </div>
+                      <div class="vijesti-kartica-tekst">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Dolores obcaecati dolor iure soluta vero! Quas
+                          dignissimos ipsum cupiditate pariatur dolore. Esse,
+                          repellat quos odio laudantium sunt eos sapiente
+                          distinctio exercitationem excepturi quaerat atque! In,
+                          nisi..
+                        </p>
+                      </div>
+                      <div class="btn-wrapper text-center">
+                        <a href="single.html" class="btn btn-plavi"
+                          >ОПШИРНИЈЕ</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="vijesti-kartica">
+                    <div class="vijesti-kartica-slika">
+                      <a href="single.html"
+                        ><img src="img/vijesti-placeholder.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="vijesti-slider-paginacija py-15 bg-tamno-plava">
+                      <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#galerijaSlider"
+                          data-bs-slide-to="0"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#galerijaSlider"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#galerijaSlider"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                          class="active"
+                          aria-current="true"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="vijesti-kartica-body">
+                      <div class="vijesti-kartica-nalov">
+                        <a href="single.html"
+                          >МАКСИМОВИЋУ И ВОДОЛАЗКИНУ УРУЧЕНА „ВЕЛИКА НАГРАДА ИВО
+                          АНДРИЋ“</a
+                        >
+                      </div>
+                      <div class="vijesti-kartica-tekst">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Dolores obcaecati dolor iure soluta vero! Quas
+                          dignissimos ipsum cupiditate pariatur dolore. Esse,
+                          repellat quos odio laudantium sunt eos sapiente
+                          distinctio exercitationem excepturi quaerat atque! In,
+                          nisi...
+                        </p>
+                      </div>
+                      <div class="btn-wrapper text-center">
+                        <a href="single.html" class="btn btn-plavi"
+                          >ОПШИРНИЈЕ</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 border-black">
+            <div class="vijesti-kategorija bg-tamno-plava text-center py-15">
+              НАЈАВЕ
+            </div>
+            <div id="najaveSlider" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="vijesti-kartica">
+                    <div class="vijesti-kartica-slika">
+                      <a href="single.html"
+                        ><img src="img/vijesti-placeholder.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="vijesti-slider-paginacija py-15 bg-tamno-plava">
+                      <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#najaveSlider"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#najaveSlider"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#najaveSlider"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="vijesti-kartica-body">
+                      <div class="vijesti-kartica-nalov">
+                        <a href="single.html"
+                          >МАКСИМОВИЋУ И ВОДОЛАЗКИНУ УРУЧЕНА „ВЕЛИКА НАГРАДА ИВО
+                          АНДРИЋ“</a
+                        >
+                      </div>
+                      <div class="vijesti-kartica-tekst">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Dolores obcaecati dolor iure soluta vero! Quas
+                          dignissimos ipsum cupiditate pariatur dolore. Esse,
+                          repellat quos odio laudantium sunt eos sapiente
+                          distinctio exercitationem excepturi quaerat atque! In,
+                          nisi.
+                        </p>
+                      </div>
+                      <div class="btn-wrapper text-center">
+                        <a href="single.html" class="btn btn-plavi"
+                          >ОПШИРНИЈЕ</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="vijesti-kartica">
+                    <div class="vijesti-kartica-slika">
+                      <a href="single.html"
+                        ><img src="img/vijesti-placeholder.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="vijesti-slider-paginacija py-15 bg-tamno-plava">
+                      <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#najaveSlider"
+                          data-bs-slide-to="0"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#najaveSlider"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                          class="active"
+                          aria-current="true"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#najaveSlider"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="vijesti-kartica-body">
+                      <div class="vijesti-kartica-nalov">
+                        <a href="single.html"
+                          >МАКСИМОВИЋУ И ВОДОЛАЗКИНУ УРУЧЕНА „ВЕЛИКА НАГРАДА ИВО
+                          АНДРИЋ“</a
+                        >
+                      </div>
+                      <div class="vijesti-kartica-tekst">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Dolores obcaecati dolor iure soluta vero! Quas
+                          dignissimos ipsum cupiditate pariatur dolore. Esse,
+                          repellat quos odio laudantium sunt eos sapiente
+                          distinctio exercitationem excepturi quaerat atque! In,
+                          nisi..
+                        </p>
+                      </div>
+                      <div class="btn-wrapper text-center">
+                        <a href="single.html" class="btn btn-plavi"
+                          >ОПШИРНИЈЕ</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="vijesti-kartica">
+                    <div class="vijesti-kartica-slika">
+                      <a href="single.html"
+                        ><img src="img/vijesti-placeholder.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="vijesti-slider-paginacija py-15 bg-tamno-plava">
+                      <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#najaveSlider"
+                          data-bs-slide-to="0"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#najaveSlider"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#najaveSlider"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                          class="active"
+                          aria-current="true"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="vijesti-kartica-body">
+                      <div class="vijesti-kartica-nalov">
+                        <a href="single.html"
+                          >МАКСИМОВИЋУ И ВОДОЛАЗКИНУ УРУЧЕНА „ВЕЛИКА НАГРАДА ИВО
+                          АНДРИЋ“</a
+                        >
+                      </div>
+                      <div class="vijesti-kartica-tekst">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Dolores obcaecati dolor iure soluta vero! Quas
+                          dignissimos ipsum cupiditate pariatur dolore. Esse,
+                          repellat quos odio laudantium sunt eos sapiente
+                          distinctio exercitationem excepturi quaerat atque! In,
+                          nisi...
+                        </p>
+                      </div>
+                      <div class="btn-wrapper text-center">
+                        <a href="single.html" class="btn btn-plavi"
+                          >ОПШИРНИЈЕ</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
