@@ -33,6 +33,10 @@ body {
   background-color: var(--tamno-plava);
 }
 
+.bg-svijetlo-plava {
+  background-color: var(--svijetlo-plava);
+}
+
 .bg-pattern {
   background-image: url(img/bg-patern.png);
   background-position: center;
@@ -86,6 +90,18 @@ body {
   background-color: var(--tamno-plava);
   color: #ffffff;
 }
+
+.btn-plavi-light {
+  background-color: var(--svijetlo-plava);
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.btn-plavi-light:hover,.btn-plavi-light:active,.btn-plavi-light:focus {
+  background-color: #ffffff;
+  color: var(--svijetlo-plava);
+  border: 2px solid var(--svijetlo-plava);
+} 
 
 /***************************************************
                 Page Top
@@ -191,3 +207,72 @@ body {
   width: 9px;
   height: 9px;
 }
+
+.vijesti-kartica:hover .btn-plavi:focus {
+  background-color: #ffffff;
+  color: var(--tamno-plava);
+}
+
+
+/***************************************************
+               Standard Section
+***************************************************/
+
+.naslov-sekcije h2 {
+  margin-bottom: 0px;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 1;
+  color: #F3F3F3;
+  font-weight: 500;
+}
+
+
+
+/***************************************************
+               Odeljenja 
+***************************************************/
+
+
+.odeljenje-ikonica img {
+  height: 85px;
+  width: 85px;
+}
+
+.odeljenje-naziv {
+  font-size: 26px;
+  color: #323232;
+  font-weight: 500;
+}
+
+.odeljenje-tekst p:last-child {
+  margin-bottom: 0px;
+}
+
+.odeljenje-tekst {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #323232;
+  flex: 1;
+}
+
+.odeljenje-kartica {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  height: 100%;
+}
+
+
+.odeljenje-btn {
+margin-top: auto;
+}
+
+.odeljenje-kartica:hover {
+  background-color: var(--svijetlo-plava);
+}
+
+.odeljenje-kartica:hover .odeljenje-naziv, .odeljenje-kartica:hover .odeljenje-tekst {
+  color: #ffffff;
+}
+
