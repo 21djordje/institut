@@ -82,7 +82,6 @@ body {
   border: 2px solid #000000;
 }
 
-
 .btn-crna-outline:hover,
 .btn-crna-outline:active,
 .btn-crna-outline:focus {
@@ -97,11 +96,13 @@ body {
   border: 2px solid #ffffff;
 }
 
-.btn-plavi-light:hover,.btn-plavi-light:active,.btn-plavi-light:focus {
+.btn-plavi-light:hover,
+.btn-plavi-light:active,
+.btn-plavi-light:focus {
   background-color: #ffffff;
   color: var(--svijetlo-plava);
   border: 2px solid var(--svijetlo-plava);
-} 
+}
 
 /***************************************************
                 Page Top
@@ -213,7 +214,6 @@ body {
   color: var(--tamno-plava);
 }
 
-
 /***************************************************
                Standard Section
 ***************************************************/
@@ -223,16 +223,13 @@ body {
   color: #ffffff;
   font-size: 30px;
   line-height: 1;
-  color: #F3F3F3;
+  color: #f3f3f3;
   font-weight: 500;
 }
-
-
 
 /***************************************************
                Odeljenja 
 ***************************************************/
-
 
 .odeljenje-ikonica img {
   height: 85px;
@@ -263,16 +260,58 @@ body {
   height: 100%;
 }
 
-
 .odeljenje-btn {
-margin-top: auto;
+  margin-top: auto;
 }
 
 .odeljenje-kartica:hover {
   background-color: var(--svijetlo-plava);
 }
 
-.odeljenje-kartica:hover .odeljenje-naziv, .odeljenje-kartica:hover .odeljenje-tekst {
+.odeljenje-kartica:hover .odeljenje-naziv,
+.odeljenje-kartica:hover .odeljenje-tekst {
   color: #ffffff;
 }
 
+/***************************************************
+              Video podcast
+***************************************************/
+
+.glavni-video iframe,
+.manji-video iframe {
+  width: 100%;
+}
+
+.glavni-video img,
+.manji-video img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.glavni-video iframe {
+  height: 400px;
+}
+
+.manji-video iframe {
+  height: 300px;
+}
+
+.glavni-video-vijest h3 a{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4F4F4F;
+  margin-bottom: 30px;
+}
+
+
+.glavni-video-vijest .tekst-vijesti p:last-child {
+  margin-bottom: 0px;
+}
+
+.glavni-video-vijest .tekst-vijesti {
+  font-size: 16px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}

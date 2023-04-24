@@ -1,0 +1,14 @@
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(50, 50, 50);
+    line-height: 1.417;
+    text-align: center;
+    position: absolute;
+    left: 1745.552px;
+    top: 1690.992px;
+    width: 319px;
+    height: 78px;
+    z-index: 121;
+  }
+  
