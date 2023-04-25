@@ -4,6 +4,7 @@
   --tamno-plava: #1d2d44;
   --svijetlo-plava: #3e5c76;
   --tamno-siva: #4d4d4d;
+  --siva: #4F4F4F;
 }
 
 html,
@@ -15,7 +16,7 @@ body {
 body {
   height: 100%;
   line-height: 1;
-  padding-bottom: 50000px;
+  
 }
 
 * {
@@ -42,6 +43,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bg-siva {
+  background-color: #FAFAFA;
 }
 
 .py-10 {
@@ -140,6 +145,33 @@ body {
   overflow: hidden;
 }
 
+.carousel, .carousel-inner, .carousel-item {
+  height: 100%;
+}
+
+.vijesti-kartica {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.vijesti-kartica-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+
+.vijesti-kartica-body .btn-wrapper {
+  margin-top: auto;
+  padding-top: 50px;
+}
+.carousel {
+  border: 1px solid #000000;
+}
+
+
 .vijesti-kartica-slika img {
   width: 100%;
   height: 250px;
@@ -174,7 +206,6 @@ body {
   font-size: 14px;
   color: var(--tamno-siva);
   line-height: 1.2;
-  margin-bottom: 50px;
 }
 
 .vijesti-kartica-tekst p:last-child {
@@ -315,3 +346,171 @@ body {
   margin-bottom: 40px;
   line-height: 1.5;
 }
+
+
+/***************************************************
+              Dokumenti
+***************************************************/
+
+.dok-ikonica {
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.dok-ikonica img {
+  height: 35px;
+  width: auto;
+  filter: invert(15%) sepia(55%) saturate(501%) hue-rotate(176deg) brightness(95%) contrast(96%);
+}
+
+.dok-title h6 {
+  font-size: 18px;
+  color: var(--tamno-plava);
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.dok-tekst p:last-child {
+  margin-bottom: 0px;
+}
+
+.dok-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid var(--svijetlo-plava);
+  padding: 20px 10px;
+}
+
+.dok-tekst {
+  font-size: 14px;
+  color: #0D1321;
+  flex: 1;
+}
+
+.dok-box .btn-wrapper {
+  margin-top: auto;
+  padding-top: 30px;
+}
+
+.dok-box:hover {
+  background-color: var(--svijetlo-plava);
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dok-box:hover .dok-ikonica img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.dok-box:hover .btn-crna-outline {
+  background-color: var(--tamno-plava);
+  color: #ffffff;
+}
+
+.dok-box:hover .dok-tekst, .dok-box:hover .dok-title h6{
+  color: #ffffff;
+}
+
+.o-institutu-slika img {
+  width: 100%;
+  height: auto;
+}
+
+.o-institutu-tekst-block {
+  padding: 25px;
+}
+
+.o-institutu-tekst-block h4 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--siva);
+}
+
+.o-institutu-tekst p:last-child {
+  margin-bottom: 0px;
+}
+
+.o-institutu-tekst {
+  color: var(--siva);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+
+/***************************************************
+              Kontakt 
+***************************************************/
+
+.lokacija-map iframe {
+  width: 100%;
+  height: 450px;
+} 
+
+.form-label {
+  color: var(--tamno-plava);
+  font-size: 18px;
+}
+
+.form-control {
+  border-radius: 0%;
+  font-size: 18px;
+  color: var(--tamno-plava);
+}
+
+.form-control:focus {
+  border: 1px solid var(--svijetlo-plava);
+  box-shadow: none;
+}
+
+
+/***************************************************
+              Footer 
+***************************************************/
+
+
+.copyright {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+
+
+/*******************************************
+             Responsive
+*******************************************/
+@media (max-width: 1399px) {
+ 
+}
+
+@media (max-width: 1199px) {
+  
+}
+
+@media (min-width: 1200px) {
+ 
+}
+
+@media (min-width: 993px) {
+ 
+}
+
+@media (max-width: 992px) {
+  
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 591px) {
+  
+}
+
+@media (max-width: 420px) {
+}
+
+@media (max-width: 350px) {
+ 
+}
+
