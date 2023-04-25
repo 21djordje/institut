@@ -46,8 +46,8 @@
 
     <section class="vijesti-sekcija pb-5">
       <div class="container">
-        <div class="row gx-0">
-          <div class="col-md-4 ">
+        <div class="row gx-0 gy-5">
+          <div class="col-lg-4 pb-5 pb-lg-0">
             <div class="vijesti-kategorija bg-tamno-plava text-center py-15">
               НОВОСТИ
             </div>
@@ -157,7 +157,8 @@
                           nisi..
                         </p>
                         <p>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, numquam.
+                          Lorem ipsum dolor, sit amet consectetur adipisicing
+                          elit. Esse, numquam.
                         </p>
                       </div>
                       <div class="btn-wrapper text-center">
@@ -227,7 +228,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 ">
+          <div class="col-lg-4 pb-5 pb-lg-0">
             <div class="vijesti-kategorija bg-tamno-plava text-center py-15">
               ГАЛЕРИЈА ЛУБАРДА
             </div>
@@ -404,7 +405,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 ">
+          <div class="col-lg-4 pb-5 pb-lg-0">
             <div class="vijesti-kategorija bg-tamno-plava text-center py-15">
               НАЈАВЕ
             </div>
@@ -452,7 +453,6 @@
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Dolores obcaecati dolor iure soluta vero! Quas
-                          
                         </p>
                       </div>
                       <div class="btn-wrapper text-center">
@@ -561,8 +561,7 @@
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Dolores obcaecati dolor iure soluta vero! Quas
-                          dignissimos ipsum cupi quaerat atque! In,
-                          nisi...
+                          dignissimos ipsum cupi quaerat atque! In, nisi...
                         </p>
                       </div>
                       <div class="btn-wrapper text-center">
@@ -577,7 +576,7 @@
             </div>
           </div>
         </div>
-        <div class="btn-wrapper text-center mt-5 pt-5">
+        <div class="btn-wrapper text-center mt-lg-5 pt-5">
           <a href="archive.html" class="btn btn-crna-outline fw-bold"
             >СВЕ ВИЈЕСТИ <span class="ms-2">>></span></a
           >
@@ -751,7 +750,7 @@
                     ></iframe>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 d-none d-md-block">
                   <div class="manji-video">
                     <iframe
                       src="https://www.youtube.com/embed/yn4Rtt5Ym3w?controls=0"
@@ -762,7 +761,7 @@
                     ></iframe>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 d-none d-md-block">
                   <div class="manji-video">
                     <iframe
                       src="https://www.youtube.com/embed/fmE4F70jxeg?controls=0"
@@ -823,7 +822,7 @@
       <div class="container">
         <div class="dokumenti-block">
           <div class="row gx-0">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
               <div class="dok-box text-center">
                 <div class="dok-ikonica text-center">
                   <img src="icons/note-sticky-regular.svg" alt="" />
@@ -847,7 +846,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
               <div class="dok-box text-center">
                 <div class="dok-ikonica text-center">
                   <img src="icons/object-group-solid.svg" alt="" />
@@ -871,7 +870,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
               <div class="dok-box text-center">
                 <div class="dok-ikonica text-center">
                   <img src="icons/pen-to-square-solid.svg" alt="" />
@@ -891,7 +890,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
               <div class="dok-box text-center">
                 <div class="dok-ikonica text-center">
                   <img src="icons/newspaper-solid.svg" alt="" />
@@ -975,21 +974,34 @@
           <div class="col-lg-6">
             <form class="row g-3 py-5">
               <div class="col-md-6">
-                <label for="inputIme" class="form-label">Ime:</label>
-                <input type="text" class="form-control" id="inputIme" required/>
+                <label for="inputIme" class="form-label">Име:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputIme"
+                  required
+                />
               </div>
               <div class="col-md-6">
-                <label for="inputPrezime" class="form-label">Prezime:</label>
-                <input type="text" class="form-control" id="inputPrezime" required/>
+                <label for="inputPrezime" class="form-label">Презиме:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputPrezime"
+                  required
+                />
               </div>
               <div class="col-12">
-                <label for="inputEmail" class="form-label">Email:</label>
-                <input type="email" class="form-control" id="inputEmail" required/>
+                <label for="inputEmail" class="form-label">Емаил:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  required
+                />
               </div>
               <div class="col-12">
-                <label for="inputPoruka" class="form-label"
-                  >Poruka:</label
-                >
+                <label for="inputPoruka" class="form-label">Порука:</label>
                 <textarea
                   class="form-control"
                   id="inputPoruka"
@@ -998,7 +1010,9 @@
                 ></textarea>
               </div>
               <div class="col-12">
-                <button type="submit" class="btn btn-plavi">Пошаљи поруку</button>
+                <button type="submit" class="btn btn-plavi">
+                  Пошаљи поруку
+                </button>
               </div>
             </form>
           </div>
