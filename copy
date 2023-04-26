@@ -1,9 +1,0 @@
-.Rectangle_18 {
-  background-color: rgb(250, 250, 250);
-  position: absolute;
-  left: 2096px;
-  top: 2489px;
-  width: 383px;
-  height: 649px;
-  z-index: 189;
-}

@@ -250,6 +250,15 @@ body {
 
 .kolumna-box {
   border: 1px solid var(--svijetlo-plava);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.kolumna-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .kolumna-slika {
@@ -257,6 +266,10 @@ body {
   height: 200px;
   position: relative;
   overflow: hidden;
+}
+
+.kolumna-body .btn-wrapper {
+  margin-top: auto;
 }
 
 .kolumna-slika img {
@@ -316,6 +329,7 @@ body {
 .kolumna-tekst {
   color: var(--siva);
   line-height: 1.4;
+  flex: 1;
 }
 
 
@@ -568,6 +582,17 @@ body {
     border-left: none;
     border-right: none;
     border-bottom: 10px solid #ffffff;
+  }
+  .vijesti-kartica-body {
+    background-color: var(--tamno-plava);
+  }
+  .vijesti-kartica-nalov a, .vijesti-kartica-tekst {
+    color: #ffffff;
+  }
+
+  .vijesti-kartica-body .btn-plavi:focus, .vijesti-kartica-body .btn-plavi:active {
+    background-color: #ffffff;
+    color: var(--tamno-plava);
   }
 }
 
