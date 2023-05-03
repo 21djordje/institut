@@ -553,6 +553,77 @@ body {
   box-shadow: none;
 }
 
+
+/***************************************************
+               Single
+***************************************************/
+
+.naslov-vijesti h3 {
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.datum-vijesti {
+  font-size: 14px;
+  color: var(--siva);
+}
+
+.social-list ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.social-list ul li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.social-list ul li:last-child {
+  margin-right: 0px;
+}
+
+.social-list ul li img {
+  height: 28px;
+  width: auto;
+  filter: invert(34%) sepia(18%) saturate(1026%) hue-rotate(166deg) brightness(93%) contrast(89%);
+}
+
+.social-list ul li img:hover{
+  filter: invert(13%) sepia(9%) saturate(3853%) hue-rotate(176deg) brightness(92%) contrast(87%);
+}
+
+
+.breadcrumb {
+  margin-bottom: 0px;
+}
+
+.breadcrumb-item a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #ffffff;
+}
+
+.breadcrumb-item.active {
+  color: #ffffff;
+}
+
+.vijest-sadrzaj img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.vijest-sadrzaj {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
 /***************************************************
               Footer 
 ***************************************************/
