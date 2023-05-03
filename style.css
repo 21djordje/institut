@@ -624,6 +624,64 @@ body {
   line-height: 1.4;
 }
 
+
+/***************************************************
+              Sidebar
+***************************************************/
+
+
+.sidebar {
+  padding-top: 200px;
+}
+
+.sidebar-novosti-lista ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-novosti-lista ul li {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(29, 45, 68, 0.4);
+}
+
+.sidebar-novosti-lista ul li:last-child {
+  border-bottom: none;
+}
+
+.sidebar-novosti-lista ul li img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.sidebar-novosti-lista ul li img:hover {
+  scale: 1.1;
+}
+
+.sidebar-novosti-lista ul li h6 {
+  margin-bottom: 0px;
+  padding-left: 10px;
+}
+
+.sidebar-novosti-lista ul li h6 a {
+  text-decoration: none;
+  color: var(--svijetlo-plava);
+  font-size: 14px;
+}
+
+.sidebar-novosti-lista ul li h6 a:hover {
+  color: var(--tamno-plava);
+}
+
+.sidebar-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
 /***************************************************
               Footer 
 ***************************************************/
@@ -646,6 +704,13 @@ body {
   .glavni-video-vijest h3 a {
     font-size: 18px;
   }
+  .sidebar-novosti-lista ul li img {
+    height: 80px;
+    width: 80px;
+}
+.sidebar-novosti-lista ul li h6 a {
+  font-size: 12px;
+}
 }
 
 @media (max-width: 992px) {
@@ -665,6 +730,16 @@ body {
     background-color: #ffffff;
     color: var(--tamno-plava);
   }
+  .sidebar {
+    padding-top: 0px;
+  }
+  .sidebar-novosti-lista ul li h6 a {
+    font-size: 14px;
+}
+.sidebar-novosti-lista ul li img {
+  height: 100px;
+  width: 100px;
+}
 }
 
 @media (max-width: 768px) {
@@ -694,6 +769,9 @@ body {
   }
   .lokacija-map iframe {
     height: 250px;
+  }
+  .naslov-vijesti h3 {
+    font-size: 20px;
   }
 }
 
