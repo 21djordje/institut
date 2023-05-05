@@ -686,6 +686,27 @@ body {
   font-weight: 700;
   color: #ffffff;
 }
+
+
+/***************************************************
+               Paginacija
+***************************************************/
+
+
+.page-link {
+  color: var(--svijetlo-plava);
+}
+.page-link:focus, .page-link:hover {
+  box-shadow: none;
+  color: var(--tamno-plava);
+}
+
+.active>.page-link, .page-link.active {
+  background-color: var(--svijetlo-plava);
+  border-color: var(--svijetlo-plava);
+}
+
+
 /***************************************************
               Footer 
 ***************************************************/
