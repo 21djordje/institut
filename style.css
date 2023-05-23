@@ -121,22 +121,19 @@ body {
   width: auto;
 }
 
-
 /***************************************************
               NAVBAR
 ***************************************************/
 
-
 .nav-link {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-
 }
 
-
-
-.nav-link:hover,.nav-link:active, .nav-link:focus {
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
   color: #ffffff;
 }
 
@@ -148,7 +145,7 @@ body {
 .navbar-nav .nav-link.show {
   color: #ffffff;
   font-weight: 700;
-} 
+}
 
 .dropdown-menu {
   background-color: var(--svijetlo-plava);
@@ -161,14 +158,17 @@ body {
   padding: 10px;
 }
 
-.dropdown-item.active, .dropdown-item:active, .dropdown-item:hover, .dropdown-item:focus {
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:hover,
+.dropdown-item:focus {
   background-color: #ffffff;
   color: var(--tamno-plava);
 }
 
-
 .navbar-toggler-icon {
-  filter: invert(95%) sepia(95%) saturate(19%) hue-rotate(272deg) brightness(102%) contrast(109%);
+  filter: invert(95%) sepia(95%) saturate(19%) hue-rotate(272deg)
+    brightness(102%) contrast(109%);
 }
 
 .navbar-toggler {
@@ -310,7 +310,6 @@ body {
   color: var(--tamno-plava);
 }
 
-
 /***************************************************
                Kolumne
 ***************************************************/
@@ -382,7 +381,7 @@ body {
   padding: 5px;
 }
 
-.kolumna-naziv a{
+.kolumna-naziv a {
   color: var(--svijetlo-plava);
   text-decoration: none;
   font-weight: 700;
@@ -398,9 +397,6 @@ body {
   line-height: 1.4;
   flex: 1;
 }
-
-
-
 
 /***************************************************
                Standard Section
@@ -608,7 +604,6 @@ body {
   margin-bottom: 0px;
 }
 
-
 .dok-stranica .dok-box:hover {
   background-color: var(--tamno-plava);
 }
@@ -628,7 +623,8 @@ body {
 .dok-img img {
   height: 22px;
   width: auto;
-  filter: invert(96%) sepia(5%) saturate(221%) hue-rotate(235deg) brightness(124%) contrast(100%);
+  filter: invert(96%) sepia(5%) saturate(221%) hue-rotate(235deg)
+    brightness(124%) contrast(100%);
 }
 
 /***************************************************
@@ -655,7 +651,6 @@ body {
   border: 1px solid var(--svijetlo-plava);
   box-shadow: none;
 }
-
 
 /***************************************************
                Single
@@ -690,13 +685,14 @@ body {
 .social-list ul li img {
   height: 28px;
   width: auto;
-  filter: invert(34%) sepia(18%) saturate(1026%) hue-rotate(166deg) brightness(93%) contrast(89%);
+  filter: invert(34%) sepia(18%) saturate(1026%) hue-rotate(166deg)
+    brightness(93%) contrast(89%);
 }
 
-.social-list ul li img:hover{
-  filter: invert(13%) sepia(9%) saturate(3853%) hue-rotate(176deg) brightness(92%) contrast(87%);
+.social-list ul li img:hover {
+  filter: invert(13%) sepia(9%) saturate(3853%) hue-rotate(176deg)
+    brightness(92%) contrast(87%);
 }
-
 
 .breadcrumb {
   margin-bottom: 0px;
@@ -707,8 +703,7 @@ body {
   text-decoration: none;
 }
 
-
-.breadcrumb-item+.breadcrumb-item::before {
+.breadcrumb-item + .breadcrumb-item::before {
   color: #ffffff;
 }
 
@@ -727,11 +722,9 @@ body {
   line-height: 1.4;
 }
 
-
 /***************************************************
               Sidebar
 ***************************************************/
-
 
 .sidebar {
   padding-top: 100px;
@@ -786,29 +779,24 @@ body {
   color: #ffffff;
 }
 
-
-
-
-
-
 /***************************************************
                Paginacija
 ***************************************************/
 
-
 .page-link {
   color: var(--svijetlo-plava);
 }
-.page-link:focus, .page-link:hover {
+.page-link:focus,
+.page-link:hover {
   box-shadow: none;
   color: var(--tamno-plava);
 }
 
-.active>.page-link, .page-link.active {
+.active > .page-link,
+.page-link.active {
   background-color: var(--svijetlo-plava);
   border-color: var(--svijetlo-plava);
 }
-
 
 /***************************************************
               Footer 
@@ -835,28 +823,36 @@ body {
   .sidebar-novosti-lista ul li img {
     height: 80px;
     width: 80px;
-}
-.sidebar-novosti-lista ul li h6 a {
-  font-size: 12px;
-}
-.navbar-nav {
-  text-align: center;
-}
-.nav-link {
-  font-size: 24px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #ffffff;
-}
-.dropdown-menu {
-  text-align: center;
-}
-.dropdown-item {
-  font-size: 22px;
-}
-.dropdown-toggle, .dropdown-item {
- white-space: normal;
-}
+  }
+  .sidebar-novosti-lista ul li h6 a {
+    font-size: 12px;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-link {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ffffff;
+  }
+  .dropdown-menu {
+    text-align: center;
+  }
+  .dropdown-item {
+    font-size: 22px;
+  }
+  .dropdown-toggle,
+  .dropdown-item {
+    white-space: normal;
+  }
+  .offcanvas.offcanvas-end {
+    margin-left: 0px;
+  }
+  .btn-close {
+    filter: invert(100%) sepia(100%) saturate(24%) hue-rotate(57deg)
+      brightness(105%) contrast(108%);
+  }
 }
 
 @media (max-width: 992px) {
@@ -868,11 +864,13 @@ body {
   .vijesti-kartica-body {
     background-color: var(--tamno-plava);
   }
-  .vijesti-kartica-naslov a, .vijesti-kartica-tekst {
+  .vijesti-kartica-naslov a,
+  .vijesti-kartica-tekst {
     color: #ffffff;
   }
 
-  .vijesti-kartica-body .btn-plavi:focus, .vijesti-kartica-body .btn-plavi:active {
+  .vijesti-kartica-body .btn-plavi:focus,
+  .vijesti-kartica-body .btn-plavi:active {
     background-color: #ffffff;
     color: var(--tamno-plava);
   }
@@ -881,11 +879,11 @@ body {
   }
   .sidebar-novosti-lista ul li h6 a {
     font-size: 14px;
-}
-.sidebar-novosti-lista ul li img {
-  height: 100px;
-  width: 100px;
-}
+  }
+  .sidebar-novosti-lista ul li img {
+    height: 100px;
+    width: 100px;
+  }
 }
 
 @media (max-width: 768px) {
