@@ -121,6 +121,69 @@ body {
   width: auto;
 }
 
+
+/***************************************************
+              NAVBAR
+***************************************************/
+
+
+.nav-link {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+
+
+.nav-link:hover,.nav-link:active, .nav-link:focus {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-link.show {
+  color: #ffffff;
+  font-weight: 700;
+} 
+
+.dropdown-menu {
+  background-color: var(--svijetlo-plava);
+  border-radius: 0px;
+  border: none;
+}
+
+.dropdown-item {
+  color: #ffffff;
+  padding: 10px;
+}
+
+.dropdown-item.active, .dropdown-item:active, .dropdown-item:hover, .dropdown-item:focus {
+  background-color: #ffffff;
+  color: var(--tamno-plava);
+}
+
+
+.navbar-toggler-icon {
+  filter: invert(95%) sepia(95%) saturate(19%) hue-rotate(272deg) brightness(102%) contrast(109%);
+}
+
+.navbar-toggler {
+  border: none;
+  margin-left: auto;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.offcanvas {
+  background-color: var(--svijetlo-plava);
+}
+
 /***************************************************
                Hero
 ***************************************************/
@@ -532,6 +595,42 @@ body {
   line-height: 1.4;
 }
 
+.dok-stranica .dok-box {
+  margin-bottom: 30px;
+  background-color: var(--svijetlo-plava);
+}
+
+.dok-stranica .dok-box a {
+  text-decoration: none;
+}
+
+.dok-stranica .dok-box:last-child {
+  margin-bottom: 0px;
+}
+
+
+.dok-stranica .dok-box:hover {
+  background-color: var(--tamno-plava);
+}
+
+.dok-naziv {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.dok-datum {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.dok-img img {
+  height: 22px;
+  width: auto;
+  filter: invert(96%) sepia(5%) saturate(221%) hue-rotate(235deg) brightness(124%) contrast(100%);
+}
+
 /***************************************************
               Kontakt 
 ***************************************************/
@@ -687,45 +786,9 @@ body {
   color: #ffffff;
 }
 
-/***************************************************
-               Dokumenti
-***************************************************/
-
-.dok-stranica .dok-box {
-  margin-bottom: 30px;
-  background-color: var(--svijetlo-plava);
-}
-
-.dok-stranica .dok-box a {
-  text-decoration: none;
-}
-
-.dok-stranica .dok-box:last-child {
-  margin-bottom: 0px;
-}
 
 
-.dok-stranica .dok-box:hover {
-  background-color: var(--tamno-plava);
-}
 
-.dok-naziv {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.4;
-}
-
-.dok-datum {
-  color: #ffffff;
-  font-size: 14px;
-}
-
-.dok-img img {
-  height: 22px;
-  width: auto;
-  filter: invert(96%) sepia(5%) saturate(221%) hue-rotate(235deg) brightness(124%) contrast(100%);
-}
 
 
 /***************************************************
@@ -775,6 +838,24 @@ body {
 }
 .sidebar-novosti-lista ul li h6 a {
   font-size: 12px;
+}
+.navbar-nav {
+  text-align: center;
+}
+.nav-link {
+  font-size: 24px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ffffff;
+}
+.dropdown-menu {
+  text-align: center;
+}
+.dropdown-item {
+  font-size: 22px;
+}
+.dropdown-toggle, .dropdown-item {
+ white-space: normal;
 }
 }
 
