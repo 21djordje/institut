@@ -635,7 +635,7 @@ body {
 
 
 .sidebar {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .sidebar-novosti-lista ul {
@@ -685,6 +685,46 @@ body {
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
+}
+
+/***************************************************
+               Dokumenti
+***************************************************/
+
+.dok-box {
+  margin-bottom: 30px;
+  background-color: var(--svijetlo-plava);
+}
+
+.dok-box a {
+  text-decoration: none;
+}
+
+.dok-box:last-child {
+  margin-bottom: 0px;
+}
+
+
+.dok-box:hover {
+  background-color: var(--tamno-plava);
+}
+
+.dok-naziv {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.dok-datum {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.dok-img img {
+  height: 22px;
+  width: auto;
+  filter: invert(96%) sepia(5%) saturate(221%) hue-rotate(235deg) brightness(124%) contrast(100%);
 }
 
 
@@ -797,6 +837,9 @@ body {
   }
   .naslov-vijesti h3 {
     font-size: 20px;
+  }
+  .dok-naziv {
+    font-size: 16px;
   }
 }
 
