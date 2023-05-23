@@ -691,21 +691,21 @@ body {
                Dokumenti
 ***************************************************/
 
-.dok-box {
+.dok-stranica .dok-box {
   margin-bottom: 30px;
   background-color: var(--svijetlo-plava);
 }
 
-.dok-box a {
+.dok-stranica .dok-box a {
   text-decoration: none;
 }
 
-.dok-box:last-child {
+.dok-stranica .dok-box:last-child {
   margin-bottom: 0px;
 }
 
 
-.dok-box:hover {
+.dok-stranica .dok-box:hover {
   background-color: var(--tamno-plava);
 }
 
